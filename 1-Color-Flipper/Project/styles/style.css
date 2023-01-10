@@ -1,18 +1,18 @@
 .Link-messages {
-    display: grid;
-    border-bottom: black 1px solid;
-    background-color: hsla(60, 90%, 84%, 0.754);
-    color: black;
+  display: grid;
+  border-bottom: black 1px solid;
+  background-color: hsla(60, 90%, 84%, 0.754);
+  color: black;
 }
 
 .links {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .links a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /** .Display-Background-Color{
@@ -46,59 +46,59 @@ body {
 
 /* Container */
 .container {
-    /** FlexBox **/
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    /* Dimensions */
-    width: auto;
-    height: 350px;
-    
-    /** Layout **/
-    background-color: #9b2226;
-    color: #e9d8a6;
+  /** FlexBox **/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* Dimensions */
+  width: auto;
+  height: 350px;
+
+  /** Layout **/
+  background-color: #9b2226;
+  color: #e9d8a6;
 }
 
 .container > div {
-    width: 150px;
-    height: 40px;
-    padding: 5px;
-    border: 2px solid #e9d8a6;
-    background-color: #ae2012;
-    border-radius: 10px;
+  width: 150px;
+  height: 40px;
+  padding: 5px;
+  border: 2px solid #e9d8a6;
+  background-color: #ae2012;
+  border-radius: 10px;
 }
 
 .container .Item-2:hover {
-    background-color: #bb3e03;
+  background-color: #bb3e03;
 }
 
 .Item-2 > button {
-    text-decoration: none;
-    background-color: transparent;
-    border: none;
-    color: #e9d8a6;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  color: #e9d8a6;
 }
 
 .Item-2 > button:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .Item-1 {
-    /* flex-grow: 1; */
-    margin: 5px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  /* flex-grow: 1; */
+  margin: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .Item-2 {
-    /* flex-grow: 1; */
-    margin: 5px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  /* flex-grow: 1; */
+  margin: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
