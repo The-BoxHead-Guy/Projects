@@ -1,8 +1,8 @@
 .Link-messages {
     display: grid;
     border-bottom: black 1px solid;
-    background-color: hsla(60, 90%, 84%, 0.754);
-    color: black;
+    background-color: #523f38;
+    color: white;
 }
 
 .links {
@@ -13,6 +13,7 @@
 
 .links a {
     text-decoration: none;
+    color: white;
 }
 
 /** .Display-Background-Color{
@@ -57,8 +58,8 @@ body {
     height: 350px;
     
     /** Layout **/
-    background-color: #9b2226;
-    color: #e9d8a6;
+    background-color: #575366;
+    color: white;
 }
 
 .container > div {
@@ -66,19 +67,19 @@ body {
     height: 40px;
     padding: 5px;
     border: 2px solid #e9d8a6;
-    background-color: #ae2012;
+    background-color: #6E7DAB;
     border-radius: 10px;
 }
 
 .container .Item-2:hover {
-    background-color: #bb3e03;
+    background-color: #5762D5;
 }
 
 .Item-2 > button {
     text-decoration: none;
     background-color: transparent;
     border: none;
-    color: #e9d8a6;
+    color: white;
 }
 
 .Item-2 > button:hover {
